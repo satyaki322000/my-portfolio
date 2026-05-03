@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="SB favicon">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#052e2b"/>
+      <stop offset="55%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="20%" y1="10%" x2="80%" y2="90%">
+      <stop offset="0%" stop-color="#a7f3d0"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <circle cx="98" cy="30" r="10" fill="#86efac" opacity="0.9"/>
+  <path d="M33 92V35h28c15 0 25 7 25 19 0 8-4 14-11 17 10 2 16 9 16 19 0 14-11 22-29 22H33Zm16-34h11c8 0 12-3 12-9s-4-9-12-9H49v18Zm0 29h14c8 0 13-4 13-10 0-7-5-11-13-11H49v21Z" fill="url(#accent)"/>
+  <path d="M95 95c-11 0-19-7-19-18h12c0 4 3 7 8 7 4 0 7-2 7-5 0-4-4-5-10-7-8-2-16-5-16-16 0-10 8-17 19-17 10 0 18 7 18 17H102c0-4-3-6-7-6-4 0-6 2-6 5 0 4 4 5 9 6 9 3 18 6 18 17 0 10-9 17-21 17Z" fill="#f8fafc" opacity="0.96"/>
+</svg>

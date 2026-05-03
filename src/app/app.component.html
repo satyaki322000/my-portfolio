@@ -1,0 +1,209 @@
+<main class="portfolio-shell min-h-screen selection:bg-emerald-300/30">
+  <section class="hero">
+    <div class="hero__glow hero__glow--emerald"></div>
+    <div class="hero__glow hero__glow--amber"></div>
+
+    <div class="hero__copy max-w-4xl">
+      <p class="eyebrow">Senior Full Stack Engineer</p>
+      <h1>
+        Satyaki Banerjee builds
+        <span>national-scale products</span>
+        with Angular, Spring Boot, cloud, and calm execution.
+      </h1>
+      <p class="hero__lede">
+        HealthTech and GovTech engineer with 4.5+ years of experience delivering
+        resilient systems, leading teams, and shipping production platforms that
+        support real users at scale.
+      </p>
+
+      <div class="hero__cta">
+        <a class="button button--primary" href="https://www.linkedin.com/in/satyaki-banerjee-57a909190/" target="_blank" rel="noreferrer">
+          Connect on LinkedIn
+        </a>
+        <a class="button button--ghost" href="https://github.com/satyaki322000" target="_blank" rel="noreferrer">
+          View GitHub
+        </a>
+        <a class="button button--ghost button--resume" href="resume/Satyaki_Banerjee_Resume.pdf" target="_blank" rel="noreferrer">
+          View Resume
+        </a>
+        <a class="button button--secondary" href="resume/Satyaki_Banerjee_Resume.pdf" download="Satyaki_Banerjee_Resume.pdf">
+          Download Resume
+        </a>
+      </div>
+
+      <ul class="hero__facts">
+        @for (fact of quickFacts; track fact.label) {
+          <li>
+            <strong>{{ fact.value }}</strong>
+            <span>{{ fact.label }}</span>
+          </li>
+        }
+      </ul>
+    </div>
+
+    <aside class="hero__card ring-1 ring-white/5">
+      <p class="hero__status">Open to work</p>
+      <h2>Immediate joiner for senior frontend or full stack roles</h2>
+      <ul>
+        @for (item of openToWork; track item.label) {
+          <li>
+            <span>{{ item.label }}</span>
+            <strong>{{ item.value }}</strong>
+          </li>
+        }
+      </ul>
+    </aside>
+  </section>
+
+  <section class="section">
+    <div class="section__heading">
+      <p class="eyebrow">About</p>
+      <h2>Enterprise delivery without drama</h2>
+    </div>
+
+    <div class="about-grid">
+      <article class="card card--feature ring-1 ring-white/5">
+        <p>
+          I build products that need to stay online, stay compliant, and stay usable.
+          My recent work spans healthcare, medical imaging, airport systems, payments,
+          real-time communication, and cloud modernization.
+        </p>
+        <p>
+          Across Angular v9-v19, Spring Boot, JBoss EAP, AWS, and Azure, I focus on
+          reliable delivery, clean collaboration, and measurable engineering impact.
+        </p>
+      </article>
+
+      <div class="impact-grid">
+        @for (item of impactHighlights; track item.title) {
+        <article class="card impact-card ring-1 ring-white/5">
+            <p class="impact-card__value">{{ item.value }}</p>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.detail }}</p>
+          </article>
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__heading">
+      <p class="eyebrow">Featured Work</p>
+      <h2>Projects that show architecture, ownership, and product depth</h2>
+    </div>
+
+    <div class="project-grid">
+      @for (project of featuredProjects; track project.title) {
+        <article class="card project-card ring-1 ring-white/5">
+          <div class="project-card__header">
+            <div>
+              <p class="project-card__type">{{ project.type }}</p>
+              <h3>{{ project.title }}</h3>
+            </div>
+            <span>{{ project.stack }}</span>
+          </div>
+
+          <p class="project-card__summary">{{ project.summary }}</p>
+
+          <ul class="project-card__bullets">
+            @for (bullet of project.highlights; track bullet) {
+              <li>{{ bullet }}</li>
+            }
+          </ul>
+        </article>
+      }
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__heading">
+      <p class="eyebrow">Experience</p>
+      <h2>Recent roles and delivery context</h2>
+    </div>
+
+    <div class="timeline">
+      @for (role of experience; track role.title + role.company) {
+        <article class="card timeline__item ring-1 ring-white/5">
+          <div class="timeline__meta">
+            <p>{{ role.period }}</p>
+            <span>{{ role.location }}</span>
+          </div>
+
+          <div class="timeline__body">
+            <h3>{{ role.title }}</h3>
+            <p class="timeline__company">{{ role.company }}</p>
+            <p>{{ role.summary }}</p>
+
+            <ul>
+              @for (achievement of role.achievements; track achievement) {
+                <li>{{ achievement }}</li>
+              }
+            </ul>
+          </div>
+        </article>
+      }
+    </div>
+  </section>
+
+  <section class="section section--split">
+    <div>
+      <div class="section__heading">
+        <p class="eyebrow">Skills</p>
+        <h2>Core tools I ship with</h2>
+      </div>
+
+      <div class="skill-groups">
+        @for (group of skillGroups; track group.name) {
+          <article class="card skill-card ring-1 ring-white/5">
+            <h3>{{ group.name }}</h3>
+            <div class="chips">
+              @for (skill of group.skills; track skill) {
+                <span class="chip">{{ skill }}</span>
+              }
+            </div>
+          </article>
+        }
+      </div>
+    </div>
+
+    <div>
+      <div class="section__heading">
+        <p class="eyebrow">Certifications</p>
+        <h2>Validated learning and platform depth</h2>
+      </div>
+
+      <div class="cert-list">
+        @for (cert of certifications; track cert.title) {
+          <article class="card cert-card ring-1 ring-white/5">
+            <h3>{{ cert.title }}</h3>
+            <p>{{ cert.issuer }}</p>
+            <span>{{ cert.meta }}</span>
+          </article>
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--contact">
+    <div class="card contact-card ring-1 ring-white/5">
+      <p class="eyebrow">Let’s Build</p>
+      <h2>Looking for senior Angular or full stack opportunities</h2>
+      <p>
+        Best fit: teams building real products in healthcare, enterprise, public
+        sector, or cloud platforms where reliability and delivery discipline matter.
+      </p>
+
+      <div class="contact-card__actions">
+        <a class="button button--primary" href="https://www.linkedin.com/in/satyaki-banerjee-57a909190/" target="_blank" rel="noreferrer">
+          Message on LinkedIn
+        </a>
+        <a class="button button--ghost" href="https://github.com/satyaki322000" target="_blank" rel="noreferrer">
+          Explore Repositories
+        </a>
+        <a class="button button--secondary" href="resume/Satyaki_Banerjee_Resume.pdf" target="_blank" rel="noreferrer">
+          Open Resume
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
