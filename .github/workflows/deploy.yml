@@ -35,9 +35,6 @@ jobs:
       - name: Build Angular app
         run: npm run build:github-pages
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
