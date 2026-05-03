@@ -1,534 +1,110 @@
 %PDF-1.4
-%âãÏÓ
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Producer (pypdf)
+/F1 2 0 R /F2 3 0 R /F3 7 0 R /F4 8 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 4 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
-/Annots [ 5 0 R 6 0 R ]
-/Contents 7 0 R
-/MediaBox [ 0 0 595.2756 841.8898 ]
-/Resources <<
-/Font <<
-/F1 8 0 R
-/F1-0 9 0 R
-/F2 10 0 R
-/F3 11 0 R
-/F4 12 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Parent 2 0 R
+/A <<
+/S /URI /Type /Action /URI (https://www.linkedin.com/in/satyaki-banerjee-57a909190/)
+>> /Border [ 0 0 0 ] /Rect [ 249.4003 754.3433 415.6943 764.5433 ] /Subtype /Link /Type /Annot
 >>
 endobj
 5 0 obj
 <<
 /A <<
-/S /URI
-/Type /Action
-/URI (https\072\057\057www\056linkedin\056com\057in\057satyaki\055banerjee\05557a909190\057)
->>
-/Border [ 0 0 0 ]
-/Rect [ 239.7188 754.3433 406.0128 764.5433 ]
-/Subtype /Link
-/Type /Annot
+/S /URI /Type /Action /URI (https://github.com/satyaki322000)
+>> /Border [ 0 0 0 ] /Rect [ 427.3563 754.3433 526.1008 764.5433 ] /Subtype /Link /Type /Annot
 >>
 endobj
 6 0 obj
 <<
 /A <<
-/S /URI
-/Type /Action
-/URI (https\072\057\057github\056com\057satyaki322000)
->>
-/Border [ 0 0 0 ]
-/Rect [ 417.6748 754.3433 516.4193 764.5433 ]
-/Subtype /Link
-/Type /Annot
+/S /URI /Type /Action /URI (https://satyaki322000.github.io/my-portfolio/)
+>> /Border [ 0 0 0 ] /Rect [ 192.837 742.3433 328.8965 752.5433 ] /Subtype /Link /Type /Annot
 >>
 endobj
 7 0 obj
 <<
-/Length 10499
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-q
-1 0 0 1 45.68504 783.5433 cm
-q
-.113725 .372549 .65098 rg
-BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL (SATYAKI BANERJEE) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 781.5433 cm
-Q
-q
-1 0 0 1 45.68504 768.5433 cm
-q
-BT 1 0 0 1 0 3.5 Tm 13 TL /F1 9.5 Tf .266667 .266667 .266667 rg (Full Stack Developer | Angular & Spring Boot | Healthcare & Enterprise Tech) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 764.5433 cm
-Q
-q
-1 0 0 1 45.68504 740.5433 cm
-q
-BT 1 0 0 1 0 15.5 Tm 4.509256 0 Td 12 TL /F1 8.5 Tf .266667 .266667 .266667 rg (satyaki322000@gmail.com  ) Tj (|) Tj (  +91 8851478609  ) Tj (|) Tj (  ) Tj (linkedin.com/in/satyaki-banerjee-57a909190) Tj (  ) Tj (|) Tj (  ) Tj (github.com/satyaki322000) Tj (  ) Tj (|) Tj (  New) Tj T* 226.185 0 Td (Delhi, India) Tj T* -230.6943 0 Td ET
-Q
-Q
-q
-1 0 0 1 45.68504 736.5433 cm
-Q
-q
-1 0 0 1 45.68504 734.5433 cm
-q
-1 w
-1 J
-.113725 .372549 .65098 RG
-n 0 0 m 503.9055 0 l S
-Q
-Q
-q
-1 0 0 1 45.68504 728.5433 cm
-Q
-q
-1 0 0 1 45.68504 713.5433 cm
-q
-.113725 .372549 .65098 rg
-BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (SUMMARY) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 711.9433 cm
-q
-.6 w
-1 J
-.113725 .372549 .65098 RG
-n 0 0 m 503.9055 0 l S
-Q
-Q
-q
-1 0 0 1 45.68504 648.9433 cm
-q
-BT 1 0 0 1 0 51.5 Tm 12 TL /F1 8.5 Tf .266667 .266667 .266667 rg (Full Stack Developer with 4.5+ years building scalable enterprise and healthcare platforms using Angular \(v9\226v19\) and Spring Boot.) Tj T* (Led teams of 3\2264 developers across healthcare and government projects, delivering end-to-end products from scratch \227 including) Tj T* (DICOM medical imaging viewers, Razorpay & POS payment flows, real-time video/chat systems, and large-scale government) Tj T* (microservices migrations now live at national scale. Experienced with AWS deployments, Docker, CI/CD, strict SDLC & QA) Tj T* (collaboration, and AI-assisted development. Microsoft Azure certified \(AZ-104\).) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 644.9433 cm
-Q
-q
-1 0 0 1 45.68504 641.9433 cm
-Q
-q
-1 0 0 1 45.68504 626.9433 cm
-q
-.113725 .372549 .65098 rg
-BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (PROFESSIONAL EXPERIENCE) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 625.3433 cm
-q
-.6 w
-1 J
-.113725 .372549 .65098 RG
-n 0 0 m 503.9055 0 l S
-Q
-Q
-q
-1 0 0 1 45.68504 610.3433 cm
-q
-BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf .101961 .101961 .101961 rg (Senior Frontend Developer ) Tj /F2 8 Tf .4 .4 .4 rg (| Arka Informations System / Docty Inc., New Delhi) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 599.3433 cm
-q
-.4 .4 .4 rg
-BT 1 0 0 1 0 3 Tm /F3 8 Tf 11 TL (April 2025 \226 Present) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 597.3433 cm
-Q
-q
-1 0 0 1 45.68504 586.3433 cm
-q
-.113725 .372549 .65098 rg
-BT 1 0 0 1 0 3 Tm /F2 8 Tf 11 TL (Project: Docty \227 Multi-Tenant Healthcare Platform \(built from scratch\)) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 585.3433 cm
-Q
-q
-1 0 0 1 45.68504 561.3433 cm
-q
-BT 1 0 0 1 8 15.5 Tm -0.109299 Tw 12 TL /F1 8.5 Tf .266667 .266667 .266667 rg (\177 Led 3 developers to architect Angular v17+ frontend from ground up for Patient, Doctor, Pharmacy, Clinic & Monitor portals \(5,000+) Tj T* 0 Tw (users\); NgRX state & auth management across all modules; strict SDLC with QA team throughout.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 537.3433 cm
-q
-BT 1 0 0 1 8 15.5 Tm 12 TL /F1 8.5 Tf .266667 .266667 .266667 rg (\177 Integrated DICOM viewer for surgical .dcm files; built Razorpay payment gateway & POS billing; HIPAA-compliant Agora) Tj T* (RTC/RTM video \(35% latency reduction\); Socket.IO chat at 99.5% delivery reliability.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 525.3433 cm
-q
-BT 1 0 0 1 8 3.5 Tm 12 TL /F1 8.5 Tf .266667 .266667 .266667 rg (\177 Deployed on AWS \(S3, EC2\) with Docker; achieved 98% Lighthouse score with Angular Material responsive UI.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 520.3433 cm
-Q
-q
-1 0 0 1 45.68504 508.3433 cm
-q
-BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf .101961 .101961 .101961 rg (System Engineer \227 Full Stack Developer \(Angular / Java\) ) Tj /F2 8 Tf .4 .4 .4 rg (| Tata Consultancy Services, New Delhi) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 497.3433 cm
-q
-.4 .4 .4 rg
-BT 1 0 0 1 0 3 Tm /F3 8 Tf 11 TL (July 2024 \226 April 2025) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 495.3433 cm
-Q
-q
-1 0 0 1 45.68504 473.3433 cm
-q
-BT 1 0 0 1 0 14 Tm 11 TL /F2 8 Tf .113725 .372549 .65098 rg (Project: EBR-CBIC \227 Airport Management System \(Central Bureau of Indirect Taxes & Customs\) | Live at Varanasi, Pune & 2 other) Tj T* (airports) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 472.3433 cm
-Q
-q
-1 0 0 1 45.68504 448.3433 cm
-q
-BT 1 0 0 1 8 15.5 Tm 12 TL /F1 8.5 Tf .266667 .266667 .266667 rg (\177 Led 4 developers to build Airport Management System \227 live at 4 Indian airports \227 covering baggage handling & charges, crew &) Tj T* (pet management, item taxation \(GST, surcharges, weight-based rules\), Jasper Reports, and POS payment flow.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 424.3433 cm
-q
-BT 1 0 0 1 8 15.5 Tm 12 TL /F1 8.5 Tf .266667 .266667 .266667 rg (\177 NgRX across 50+ features; page load 4.2s ) Tj /F4 8.5 Tf 12 TL (\256) Tj /F1 8.5 Tf 12 TL ( 1.8s; zero security audit failures; strict SDLC with QA \227 code reviews, regression &) Tj T* (UAT cycles; 20% fewer production bugs.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 419.3433 cm
-Q
-q
-1 0 0 1 45.68504 407.3433 cm
-q
-BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf .101961 .101961 .101961 rg (Assistant System Engineer \227 Full Stack Developer \(Angular / Java\) ) Tj /F2 8 Tf .4 .4 .4 rg (| Tata Consultancy Services, Noida) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 396.3433 cm
-q
-.4 .4 .4 rg
-BT 1 0 0 1 0 3 Tm /F3 8 Tf 11 TL (November 2022 \226 June 2024) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 394.3433 cm
-Q
-q
-1 0 0 1 45.68504 372.3433 cm
-q
-BT 1 0 0 1 0 14 Tm 11 TL /F2 8 Tf .113725 .372549 .65098 rg (Project: RMS \227 Legacy Migration: Export, Import & CMS \(Postal\) Microservices, CBIC | Live across Indian seaports, airports & post) Tj T* (offices) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 371.3433 cm
-Q
-q
-1 0 0 1 45.68504 347.3433 cm
-q
-BT 1 0 0 1 8 15.5 Tm 12 TL /F1 8.5 Tf .266667 .266667 .266667 rg (\177 Migrated legacy Struts/JSP monolith to Spring Boot 2 + Angular 13 microservices for India's Customs \227 covering Export, Import,) Tj T* (and CMS \(Postal\) domains; system now live at virtually all Indian seaports, airports, and post offices.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 323.3433 cm
-q
-BT 1 0 0 1 8 15.5 Tm 12 TL /F1 8.5 Tf .266667 .266667 .266667 rg (\177 Developed 12+ microservices & 40+ RESTful APIs handling 5,000+ daily requests at 99.9% uptime; 40% performance gain and) Tj T* (60% faster DB queries post-migration.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 318.3433 cm
-Q
-q
-1 0 0 1 45.68504 306.3433 cm
-q
-BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf .101961 .101961 .101961 rg (Assistant System Engineer Trainee \227 Full Stack Developer ) Tj /F2 8 Tf .4 .4 .4 rg (| Tata Consultancy Services, New Delhi) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 295.3433 cm
-q
-.4 .4 .4 rg
-BT 1 0 0 1 0 3 Tm /F3 8 Tf 11 TL (December 2021 \226 October 2022) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 293.3433 cm
-Q
-q
-1 0 0 1 45.68504 282.3433 cm
-q
-.113725 .372549 .65098 rg
-BT 1 0 0 1 0 3 Tm /F2 8 Tf 11 TL (Project: ITBA \227 Income Tax Business Application) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 281.3433 cm
-Q
-q
-1 0 0 1 45.68504 269.3433 cm
-q
-BT 1 0 0 1 8 3.5 Tm 12 TL /F1 8.5 Tf .266667 .266667 .266667 rg (\177 Built Spring Boot + Angular v13 app with RBAC for 5 user roles; 30+ components, JUnit-tested APIs, 20% faster initialisation.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 264.3433 cm
-Q
-q
-1 0 0 1 45.68504 261.3433 cm
-Q
-q
-1 0 0 1 45.68504 246.3433 cm
-q
-.113725 .372549 .65098 rg
-BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (TECHNICAL SKILLS) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 244.7433 cm
-q
-.6 w
-1 J
-.113725 .372549 .65098 RG
-n 0 0 m 503.9055 0 l S
-Q
-Q
-q
-1 0 0 1 45.68504 217.7433 cm
-q
-BT 1 0 0 1 0 15.5 Tm 12 TL /F2 8.5 Tf .101961 .101961 .101961 rg (Frontend:) Tj /F1 8.5 Tf ( Angular \(v9\226v19\), NgRX, RxJS, Angular Material, Bootstrap, TypeScript, HTML5, SCSS, Responsive Design, React) Tj T* (\(familiar\)) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 215.7433 cm
-Q
-q
-1 0 0 1 45.68504 203.7433 cm
-q
-BT 1 0 0 1 0 3.5 Tm 12 TL /F2 8.5 Tf .101961 .101961 .101961 rg (Backend:) Tj /F1 8.5 Tf ( Spring Boot, RESTful APIs, Microservices, Java) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 201.7433 cm
-Q
-q
-1 0 0 1 45.68504 189.7433 cm
-q
-BT 1 0 0 1 0 3.5 Tm 12 TL /F2 8.5 Tf .101961 .101961 .101961 rg (Payments:) Tj /F1 8.5 Tf ( Razorpay, POS Systems) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 187.7433 cm
-Q
-q
-1 0 0 1 45.68504 175.7433 cm
-q
-BT 1 0 0 1 0 3.5 Tm 12 TL /F2 8.5 Tf .101961 .101961 .101961 rg (Real-Time:) Tj /F1 8.5 Tf ( Agora SDK \(RTC/RTM\), Socket.IO, WebSocket, DICOM Viewer) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 173.7433 cm
-Q
-q
-1 0 0 1 45.68504 161.7433 cm
-q
-BT 1 0 0 1 0 3.5 Tm 12 TL /F2 8.5 Tf .101961 .101961 .101961 rg (Cloud & DevOps:) Tj /F1 8.5 Tf ( AWS \(S3, EC2\), Microsoft Azure, Docker, Git, NPM, CI/CD Pipelines) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 159.7433 cm
-Q
-q
-1 0 0 1 45.68504 147.7433 cm
-q
-BT 1 0 0 1 0 3.5 Tm 12 TL /F2 8.5 Tf .101961 .101961 .101961 rg (Databases:) Tj /F1 8.5 Tf ( MySQL, Oracle) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 145.7433 cm
-Q
-q
-1 0 0 1 45.68504 133.7433 cm
-q
-BT 1 0 0 1 0 3.5 Tm 12 TL /F2 8.5 Tf .101961 .101961 .101961 rg (Testing & Tools:) Tj /F1 8.5 Tf ( Jasmine, Karma, JUnit, Jasper Reports, Swagger / OpenAPI, Postman) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 131.7433 cm
-Q
-q
-1 0 0 1 45.68504 119.7433 cm
-q
-BT 1 0 0 1 0 3.5 Tm 12 TL /F2 8.5 Tf .101961 .101961 .101961 rg (AI Tools:) Tj /F1 8.5 Tf ( Claude, GitHub Codex, Kilo Code, Perplexity) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 117.7433 cm
-Q
-q
-1 0 0 1 45.68504 114.7433 cm
-Q
-q
-1 0 0 1 45.68504 111.7433 cm
-Q
-q
-1 0 0 1 45.68504 96.74331 cm
-q
-BT 1 0 0 1 0 2.5 Tm 11 TL /F2 8.5 Tf .113725 .372549 .65098 rg (EDUCATION & CERTIFICATIONS) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.68504 95.14331 cm
-q
-.6 w
-1 J
-.113725 .372549 .65098 RG
-n 0 0 m 503.9055 0 l S
-Q
-Q
-q
-1 0 0 1 45.68504 68.14331 cm
-q
-BT 1 0 0 1 0 15.5 Tm -0.039815 Tw 12 TL /F2 8.5 Tf .266667 .266667 .266667 rg (B.Tech in Computer Science) Tj /F1 8.5 Tf ( \227 Jaipur National University, Rajasthan | 2017\2262021  ) Tj ( ) Tj (|) Tj ( ) Tj (  ) Tj /F2 8.5 Tf (Certifications:) Tj /F1 8.5 Tf ( Microsoft Azure Administrator) Tj T* 0 Tw (\(AZ-104, valid Mar 2026\) \267 Cybersecurity for IT Professionals \(LinkedIn, 2024\) \267 Data Structures in Java \(Coding Ninjas, 2024\)) Tj T* ET
-Q
-Q
- 
-
-Q
-
-q
-0.0 0.0 595.2756 841.8898 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-BT
-/F1-0 10 Tf
-14.4 TL
-ET
-BT
-1 0 0 1 50 30 Tm
-(Portfolio\072 https\072\057\057satyaki322000\056github\056io\057my\055portfolio\057) Tj
-T*
-ET
-Q
-
-
-endstream
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/BaseFont /Symbol /Name /F4 /Subtype /Type1 /Type /Font
 >>
 endobj
 9 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Annots [ 4 0 R 5 0 R 6 0 R ] /Contents 13 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 12 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
 >>
 endobj
 10 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/PageMode /UseNone /Pages 12 0 R /Type /Catalog
 >>
 endobj
 11 0 obj
 <<
-/BaseFont /Helvetica-Oblique
-/Encoding /WinAnsiEncoding
-/Name /F3
-/Subtype /Type1
-/Type /Font
+/Author (\(anonymous\)) /CreationDate (D:20260503034538+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260503034538+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
 >>
 endobj
 12 0 obj
 <<
-/BaseFont /Symbol
-/Name /F4
-/Subtype /Type1
-/Type /Font
+/Count 1 /Kids [ 9 0 R ] /Type /Pages
 >>
 endobj
+13 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 3719
+>>
+stream
+GauHN>C5'p&q/*0W0_&:>$uFU9jSTF1;P\'!G*n\n^80^oL)6//p<V#If,dT#nRR``T(e$R#@d.Y3N$.:6hVR'0j))lS")I4?@tqPAZI@,Md*:jBY^1HhHPP]f=KH)c#.*>1@;V%GNX4>_g3+>rPuB9b$pMEiJ$M9t*jer"Xt9\$KJT-"\jPBZ_2$21BDtnUBqSm*eDdVDl*Op"kl+#C6?8'7[mF_9)B;jG-NMg83?eXT?V2X3aR$\$X_O?d,HW3;D,%ju&`/m<o`Q1esJ=KeE0a&#'f"l#5j?o.49(]qOsG(?(c9U+""T+#jYVL!O4g6bP280b,S$4ROjP)!>!KN3etnN77123iesdc'F!c]W'W2gt)15>8*=*fb\'87^LeGc[<i&d-r7_LK\ujn,.n'bf+O<>IRdQVs/YO3.DB*pk;L4-q?65iH[/&rJlRore'gRh-t9N`EN#>HSirOUl4S7%C3IU_\[/pXID\sF^Vk&_S0H<@Rq*%0A#ks'W88c&CHV?h!bPbI'=/#ou!b:Ri1Lq^7j<#$r:]=l($C(djf46:(R,LFY'R_5JIQU!)'VeB#AK>2Ei6KO%sW#:J@rV,FONRe7:TV@AW:85(=U^3htR_7(TN[gtf?_$_-NcmF(KNCU`s\:VJ24%\g`@ieXgaB=-eP:?X;D_,Ol0ij40k"e>>t!*D4W`=<kg!CPMYbCm/h?F%D28aYB*(l!+8]9B_hU(Y0s2L_c6o-pN+iUUYOVS'^=l"4?10gC\]Ucb7hBcc+%3*]oi[#1VC\=Y)dXpP<GQ;d9l>#1nS?KCWjL>t+KOoL7[Zd`=nk%Tq`r?.;9DARBIn(nOfM.DCt,aN7!8%TT8!Gg(r`;YYR'jCbOLUUd1410`E&3\rbN&B0bZ/iE&b+j$-_,<nV8]mAZ.[LURb^!LjPa>(rcFt"@=<??-T-pu[F0&A0@7"Dp5ghR-J>)fLX&HnmW:q$U&j5gF8%">I?cR-).YuU60_8l:J)RY%h>V]o;PPLsKqHfgo"#2j5'=<_qb_mWNq,d5"aBfcQ6ZMY9K/Fb#AqgQ/N&uneG1W4VYE8K`D#3s8ZhUA]&'e@D]>Tqa0D^_E$%)+5B2;6PdBg#-N.n*qn>!1pMXt2O:8l5H_Z&YVH\Vp*Q)c^57dtiAnh$g,u@&2K3X]AH;b&]I.JiZJ':7l`Ul?SOO;_?*=+&DPu#mH<q.[nJkCj60[PPJoHG^(.^J;D``Kak0u'FL39ITkCtC8NCcC/Nqp+)gq5T=#l2XBWkV'GH+pJL<PPF3<RC0Gnp$`9)VnB*G!G-/dW>nSl1At0383tND$W9jrGfYCS-&"3-5SWH-YrCK+X3'*'G.$]NFufEX&8H.V<kX>TE=E^=o^I:)1=9;XP"9JVYrdr$`Vr3"nA:J,me,/!Zn@D'A`c+81;(q6";fDrnHFkK\<TP!Xl4jTkkm:L$qa4g5cm<d$619>H!$0DCUOF1FLL^<;d*#@J>LBKm5qnIO+%3!YuF=uQ2r7t/7`h)d(<[&#$P8`.KZ3SgVZPcWh2>0UaTMVXn+uGV%qA%2I!(arr$0k_f:hVi9Zu9Ect?`9<rfFR&_r1+Z'kTQ9:bIe?pI%3JMe2;V@THi7n&hqTp=-3d#,c<?Ph2G30p#/ObW2meOpCj9,^kS+^WZ)KsP9KDm.B!ZIlTa-(Ml7fSbg$fVuUNfsj2Q=j]TbUV%`'i486l^fKKk;r03E?s<VKo.Z6[BZ].YA6D*W'/IPo,RmC+V<.%Ende^>0Id3p)c=DnKVR^cFHA_&)`@J?isl0X8nEHZTn17);%'6^<QA00gH6(]b'1X,B=JP*L)99o"qVP\mkCBSp?JE4I.bf_JZ"dP;+dE`6<E;KB9P59ak*+TU<O;H""`,<Mhp1TN95u[KX8-$05mS3Th6'Pc1:"0rfFNqV?N43[0lGL+q>U;mBJh=r3f?7+MP&(<`LUQ:5%0U"*X[TblT_2bVS4$,f4(IU1%6?W`9''%D<H/<oX::m<SW]M3++c^@aO:s1iW+R;RWrY)r.XC=>%'ighfjXo`@NF93cC,_rJV>4Oa.VaZ!2P9#U>!VRL%"s[l=V0kS>!GL/^=i?t`R>H@BI)YL.Jp+Z&bbGOZ):/)hHp5t-!\sg=9:!^aXr^c)H&#Hfeqc(3P!Re>Ye>7%*Pk]hVF&=$VIdq?u!tb6l^G^-(P`<%,9/`Opqt)>6V.+W_EoV.1YU'%[#U]A":;Y*)XTO/-bg#NMcgn1D/]S*+Ic6^SW!T.bRSI>'$4*8@S&rkB"ZgJ*ec;1RbMPG"IW]!@UaWbN;A2a6N)L5]7\ep?r7HN[h6b/p@9@YT/KK47*X/Fe0&a2b:=;*L7-O2KDp6P#*E$]#r7JdsGMh;!FfQGr-B$m_@n*#Z"F374J5"/@UbK)YKF(HN:YJgtFI!-3i+Y6+M`*@[5T[6/t).$8b@7gSFiRQek!R-G+Fd1n2TQ.eos=TCA!9",(@U']</V4)(5)=dkjfNJGm.@2-fD"]gtZap+DRV35`EI_S5W=QQ$%,o\1XK[fn5f6.i4r-Yj\dqHik..JS/WcA@+?GpO^\\D16s6+Xe\1DiWMOg[G*N!gE,Q&3ND_b\n^s='Im1$kpN(1Lc2p29f%/\/,aRYdUV>s[H\GsctJgegM\GI3;Q>BU8_Z6kHYbFbed-%>96mup0qU^j3b2C=-/h[LJ_u__fcd]EuW[ba1gF'kFl25d.ojT9*49;Yc#Dm6+p9X;]P5AHGeT3jd7A7@[fIE)S:[`q`2I<rude>@$*q+k40"KK5OKo2$!g)&;U"]-=**$*iqZPUjNr.hTie8kVb?/pgl=cR'<i]K.N%R.s"_BU6p&i9rOs;=E:_qSYR.k-p5)1>aVd+@FA_(V,@`brMi#o$jO]5%,_`>PrL3(LOehc#d8,K5kYP[:UhsF[tpga@#H<e8fbA+D5>Q`O'>G^9hheh/Cb9eX/^m@dmoV]`5[s%QGLSfa47\d.gA*ob/JYka@d[.'mo%#<Tp1(?/ds^]if="0/mMK#bG!1OPSqqY?^LI1;0MH4;[M4:#EKuQX!Q/,;L'0Vc`+S3g>]p.44m]FO>%r=_VEL5D;XIMhXJnF$RGN*od^!:f[j;8QgU,cn<T)tD<'eprmFDRO>4tTm0TroJ4K*funLQbP.*+RrU5T#CN9>&5:SV:m?2dDG>*?Y!Q=L.T>NQ5J*W7;/lip<FKk(8:hl[H+f:tO&p@pi'mUk2!!nQ3:#K:O;)N#7?,b%f<g3-7oD&ie\k?*-=aW`eXLC>6*a.KLl\r@TMjpFbj:1/fo^*mT<+NV2Aj$cgaaFGe,/E(c350B>t"gNO2@MqD7q4,W[q0'_E?jdS[qA"UkK$i^0372(I:-/?Keoh.]9t?.q&(qtFk`gRNkotr5HPj`^<PZA,FBu^8r=m?:eu9<XGfFmUEW(E#$LLZic8V=T>+bOA5Bf1qs7SpJh7\s&J)AR:=3q`ph"kn707SV_>os!<^8Nt0:"*tFG5:Qp;+6%B1upGo:kdQ_jXQH$EU9`1rng2$db%VpXKn422NJ1f-W!,WL^Nqd_]KGXW"J948X(eU;,ei-jTgk?+%+aE92o)5Xde5<cW0j.BR06+5\GsB'iO+gd?YaB)g.W_"uNoHlCC6XWER;-+[7^>K^Kc/c*h2^)?h1U[[?/._#+]#[<bHG+)7g^[(0.fT5%*qWf8Hu-q/f*W(6+ZQQ$OR+e+B2"VSNF+6IiP2?~>endstream
+endobj
 xref
-0 13
+0 14
 0000000000 65535 f 
-0000000015 00000 n 
-0000000054 00000 n 
-0000000113 00000 n 
-0000000162 00000 n 
-0000000440 00000 n 
-0000000677 00000 n 
-0000000876 00000 n 
-0000011428 00000 n 
-0000011535 00000 n 
-0000011642 00000 n 
-0000011755 00000 n 
-0000011871 00000 n 
+0000000061 00000 n 
+0000000122 00000 n 
+0000000229 00000 n 
+0000000341 00000 n 
+0000000548 00000 n 
+0000000732 00000 n 
+0000000928 00000 n 
+0000001043 00000 n 
+0000001120 00000 n 
+0000001355 00000 n 
+0000001425 00000 n 
+0000001706 00000 n 
+0000001766 00000 n 
 trailer
 <<
-/Size 13
-/Root 3 0 R
-/Info 1 0 R
+/ID 
+[<2a104fe86a4a8ebfdaf6ccd244e0ca96><2a104fe86a4a8ebfdaf6ccd244e0ca96>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 11 0 R
+/Root 10 0 R
+/Size 14
 >>
 startxref
-11949
+5577
 %%EOF

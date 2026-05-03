@@ -45,39 +45,27 @@ export class AppComponent {
 
   readonly featuredProjects = [
     {
-      type: 'Healthcare Platform',
-      title: 'Docty Healthcare Platform',
-      stack: 'Angular 17, Tailwind CSS, DICOM, REST APIs',
+      type: 'Backend Architecture · GitHub Project',
+      title: 'OMS Backend',
+      stack: 'Java 21, Spring Boot, Spring Security, Kafka, H2, JWT, Resilience4j',
       summary:
-        'HIPAA-compliant telemedicine platform serving 5,000+ daily users across India, connecting patients, doctors, labs, pharmacies, and hospitals.',
+        'Two-service backend — OrderManagementSystem and InventoryManagementSystem — working together via Kafka for event-driven order and stock management.',
       highlights: [
-        'Delivered patient, doctor, clinic, pharmacy, and monitoring interfaces with 99.9% uptime.',
-        'Integrated DICOM viewer for radiology images and real-time communication workflows.',
-        'Built marketplace flows, prescription management, and lab report delivery features.'
+        'JWT auth + role-based access: USER can read orders, ADMIN can create/update/delete.',
+        'Order events (CREATE, UPDATE, DELETE) published to Kafka; inventory service consumes and adjusts stock with duplicate-event protection via stored eventId.',
+        'Optimistic locking on orders, Resilience4j for fault-tolerant Kafka publishing.'
       ]
     },
     {
-      type: 'Airport Management System',
-      title: 'EBR-CBIC Airport Management',
-      stack: 'Angular 9, Spring Boot, Java, REST APIs',
+      type: 'Full Stack Product · GitHub Project',
+      title: 'MYFOODAPP',
+      stack: 'Angular, Node.js, Express, TypeScript, MongoDB Atlas, Leaflet, JWT',
       summary:
-        'Live at 4 major Indian airports (Delhi, Mumbai, Bengaluru, Hyderabad), handling air traffic billing and revenue systems.',
+        'End-to-end food ordering app covering search, tag filtering, cart, checkout with map, JWT login/register, and order persistence in MongoDB.',
       highlights: [
-        'Built modules for aircraft billing, flight schedule management, and automated invoicing.',
-        'Reduced page load time from 4.2s to 1.8s for critical operator workflows.',
-        'Processed 5,000+ daily requests with 99.9% uptime across all airport deployments.'
-      ]
-    },
-    {
-      type: 'Legacy Migration',
-      title: 'RMS - Port & Airport Cargo',
-      stack: 'Angular 12, Spring Boot, Oracle, Kafka',
-      summary:
-        'Migrated legacy port cargo systems serving all Indian seaports to modern microservices architecture.',
-      highlights: [
-        'Spearheaded migration of 15+ year old systems to cloud-native architecture.',
-        'Improved database query performance by 60% with optimized indexing.',
-        'Built 40+ RESTful APIs supporting 12+ microservices across the cargo workflow.'
+        'Angular frontend with reusable components: header, home, search, tags, food page, cart, checkout, and auth flows.',
+        'Node.js + Express backend with JWT auth, bcrypt, MongoDB Atlas connectivity, and order creation APIs.',
+        'Checkout page with Leaflet map for address selection, auth guards, HTTP interceptors, and loading states.'
       ]
     }
   ];
@@ -85,30 +73,46 @@ export class AppComponent {
   readonly experience = [
     {
       title: 'Senior Frontend Developer',
-      company: 'Arka Information Systems / Docty Inc.',
-      period: 'Apr 2025 - Present',
+      company: 'Arka Informations System / Docty Inc.',
+      period: 'April 2025 – May 2026',
       location: 'New Delhi, India · Hybrid',
-      summary:
-        'Building healthcare platform capabilities spanning pharmacy, labs, DICOM, marketplace flows, and real-time product experiences.',
+      project: 'Docty — Multi-Tenant Healthcare Platform (built from scratch)',
       achievements: [
-        'Developed Angular-based interfaces for patients, doctors, clinics, pharmacies across 5,000+ daily users.',
-        'Integrated DICOM viewer for radiology images and real-time communication in HIPAA-compliant environment.',
-        'Delivered marketplace flows, prescription management, and lab report delivery features.'
+        'Led 3 developers to architect Angular v17+ frontend from ground up for Patient, Doctor, Pharmacy, Clinic & Monitor portals (5,000+ users); NgRX state & auth management across all modules; strict SDLC with QA team throughout.',
+        'Integrated DICOM viewer for surgical .dcm files; built Razorpay payment gateway & POS billing; HIPAA-compliant Agora RTC/RTM video (35% latency reduction); Socket.IO chat at 99.5% delivery reliability.',
+        'Deployed on AWS (S3, EC2) with Docker; achieved 98% Lighthouse score with Angular Material responsive UI.'
       ]
     },
     {
-      title: 'Assistant Consultant',
+      title: 'System Engineer — Full Stack Developer (Angular / Java)',
       company: 'Tata Consultancy Services',
-      period: 'Dec 2021 - Apr 2025',
-      location: 'Noida / New Delhi, India',
-      summary:
-        'Built enterprise web applications for airports, ports, and government systems using Angular, Spring ecosystem, and Java.',
+      period: 'July 2024 – April 2025',
+      location: 'New Delhi, India',
+      project: 'EBR-CBIC — Airport Management System | Live at Varanasi, Pune & 2 other airports',
       achievements: [
-        'EBR-CBIC Airport Management System: Live at 4 major Indian airports handling air traffic billing.',
-        'RMS Legacy Migration: Migrated port cargo systems serving all Indian seaports to microservices.',
-        'ITBA Taxpayer Portal: Developed taxpayer-facing portal for Income Tax Department.',
-        'Built 12+ microservices with 40+ RESTful APIs serving 5,000+ daily requests at 99.9% uptime.',
-        'Improved page load performance from 4.2s to 1.8s; reduced deployment time by 60%.'
+        'Led 4 developers to build Airport Management System — live at 4 Indian airports — covering baggage handling & charges, crew & pet management, item taxation (GST, surcharges, weight-based rules), Jasper Reports, and POS payment flow.',
+        'NgRX across 50+ features; page load 4.2s → 1.8s; zero security audit failures; strict SDLC with QA — code reviews, regression & UAT cycles; 20% fewer production bugs.'
+      ]
+    },
+    {
+      title: 'Assistant System Engineer — Full Stack Developer (Angular / Java)',
+      company: 'Tata Consultancy Services',
+      period: 'November 2022 – June 2024',
+      location: 'Noida, India',
+      project: 'RMS — Legacy Migration: Export, Import & CMS (Postal) Microservices, CBIC | Live across Indian seaports, airports & post offices',
+      achievements: [
+        'Migrated legacy Struts/JSP monolith to Spring Boot 2 + Angular 13 microservices for India\'s Customs — covering Export, Import, and CMS (Postal) domains; system now live at virtually all Indian seaports, airports, and post offices.',
+        'Developed 12+ microservices & 40+ RESTful APIs handling 5,000+ daily requests at 99.9% uptime; 40% performance gain and 60% faster DB queries post-migration.'
+      ]
+    },
+    {
+      title: 'Assistant System Engineer Trainee — Full Stack Developer',
+      company: 'Tata Consultancy Services',
+      period: 'December 2021 – October 2022',
+      location: 'New Delhi, India',
+      project: 'ITBA — Income Tax Business Application',
+      achievements: [
+        'Built Spring Boot + Angular v13 app with RBAC for 5 user roles; 30+ components, JUnit-tested APIs, 20% faster initialisation.'
       ]
     }
   ];

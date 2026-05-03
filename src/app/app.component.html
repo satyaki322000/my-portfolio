@@ -132,8 +132,9 @@
           <div class="timeline__body">
             <h3>{{ role.title }}</h3>
             <p class="timeline__company">{{ role.company }}</p>
-            <p>{{ role.summary }}</p>
-
+            @if (role.project) {
+              <p class="timeline__project">{{ role.project }}</p>
+            }
             <ul>
               @for (achievement of role.achievements; track achievement) {
                 <li>{{ achievement }}</li>
