@@ -45,66 +45,70 @@ export class AppComponent {
 
   readonly featuredProjects = [
     {
-      type: 'Backend Architecture',
-      title: 'OMS Backend',
-      stack: 'Spring Boot, Kafka, H2, JWT, Resilience4j',
+      type: 'Healthcare Platform',
+      title: 'Docty Healthcare Platform',
+      stack: 'Angular 17, Tailwind CSS, DICOM, REST APIs',
       summary:
-        'A two-service order and inventory management backend where authenticated order actions publish Kafka events and inventory updates stay idempotent.',
+        'HIPAA-compliant telemedicine platform serving 5,000+ daily users across India, connecting patients, doctors, labs, pharmacies, and hospitals.',
       highlights: [
-        'Split responsibilities across OrderManagementSystem and InventoryManagementSystem.',
-        'Used JWT auth, role-based APIs, optimistic locking, and resilient event publishing.',
-        'Handled CREATE, UPDATE, and DELETE event flows with duplicate-event protection.'
+        'Delivered patient, doctor, clinic, pharmacy, and monitoring interfaces with 99.9% uptime.',
+        'Integrated DICOM viewer for radiology images and real-time communication workflows.',
+        'Built marketplace flows, prescription management, and lab report delivery features.'
       ]
     },
     {
-      type: 'Full Stack Product',
-      title: 'MYFOODAPP',
-      stack: 'Angular, Node.js, Express, MongoDB, Leaflet',
+      type: 'Airport Management System',
+      title: 'EBR-CBIC Airport Management',
+      stack: 'Angular 9, Spring Boot, Java, REST APIs',
       summary:
-        'A food ordering application covering search, tag filtering, cart flows, login, register, checkout, loading states, maps, and order persistence.',
+        'Live at 4 major Indian airports (Delhi, Mumbai, Bengaluru, Hyderabad), handling air traffic billing and revenue systems.',
       highlights: [
-        'Structured the frontend with reusable components for header, home, search, tags, food page, cart, auth, and checkout.',
-        'Added backend APIs, JWT-based login, MongoDB Atlas connectivity, and order creation flows.',
-        'Extended the experience with auth guards, interceptors, map integration, and user persistence.'
+        'Built modules for aircraft billing, flight schedule management, and automated invoicing.',
+        'Reduced page load time from 4.2s to 1.8s for critical operator workflows.',
+        'Processed 5,000+ daily requests with 99.9% uptime across all airport deployments.'
+      ]
+    },
+    {
+      type: 'Legacy Migration',
+      title: 'RMS - Port & Airport Cargo',
+      stack: 'Angular 12, Spring Boot, Oracle, Kafka',
+      summary:
+        'Migrated legacy port cargo systems serving all Indian seaports to modern microservices architecture.',
+      highlights: [
+        'Spearheaded migration of 15+ year old systems to cloud-native architecture.',
+        'Improved database query performance by 60% with optimized indexing.',
+        'Built 40+ RESTful APIs supporting 12+ microservices across the cargo workflow.'
       ]
     }
   ];
 
   readonly experience = [
     {
-      title: 'Frontend Developer',
-      company: 'Docty Inc.',
-      period: 'May 2025 - May 2026',
-      location: 'India · Hybrid',
-      summary:
-        'Built healthcare application capabilities spanning pharmacy, labs, DICOM, marketplace flows, and real-time product experiences.',
-      achievements: [
-        'Worked across Angular-based patient, doctor, clinic, pharmacy, and monitor-facing interfaces.',
-        'Contributed to healthcare workflows that demanded reliability, clarity, and production discipline.'
-      ]
-    },
-    {
       title: 'Senior Frontend Developer',
-      company: 'Arka Information Systems',
-      period: 'Apr 2025 - May 2026',
+      company: 'Arka Information Systems / Docty Inc.',
+      period: 'Apr 2025 - Present',
       location: 'New Delhi, India · Hybrid',
       summary:
-        'Delivered frontend-heavy product work with DICOM and Tailwind CSS in the stack while supporting broader platform initiatives.',
+        'Building healthcare platform capabilities spanning pharmacy, labs, DICOM, marketplace flows, and real-time product experiences.',
       achievements: [
-        'Shipped UI and workflow improvements for enterprise-facing systems.',
-        'Worked with design, engineering, and product expectations in delivery-focused environments.'
+        'Developed Angular-based interfaces for patients, doctors, clinics, pharmacies across 5,000+ daily users.',
+        'Integrated DICOM viewer for radiology images and real-time communication in HIPAA-compliant environment.',
+        'Delivered marketplace flows, prescription management, and lab report delivery features.'
       ]
     },
     {
-      title: 'Full-stack Developer / Assistant System Engineer',
+      title: 'Assistant Consultant',
       company: 'Tata Consultancy Services',
       period: 'Dec 2021 - Apr 2025',
       location: 'Noida / New Delhi, India',
       summary:
-        'Built web applications with Angular, Spring ecosystem tools, Java, and enterprise integration patterns.',
+        'Built enterprise web applications for airports, ports, and government systems using Angular, Spring ecosystem, and Java.',
       achievements: [
-        'Developed production features across frontend and backend layers.',
-        'Built a strong foundation in enterprise SDLC, requirements handling, troubleshooting, and performance work.'
+        'EBR-CBIC Airport Management System: Live at 4 major Indian airports handling air traffic billing.',
+        'RMS Legacy Migration: Migrated port cargo systems serving all Indian seaports to microservices.',
+        'ITBA Taxpayer Portal: Developed taxpayer-facing portal for Income Tax Department.',
+        'Built 12+ microservices with 40+ RESTful APIs serving 5,000+ daily requests at 99.9% uptime.',
+        'Improved page load performance from 4.2s to 1.8s; reduced deployment time by 60%.'
       ]
     }
   ];
