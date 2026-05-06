@@ -16,7 +16,7 @@ export class AppComponent {
   readonly openToWork = [
     { label: 'Job titles', value: 'Full Stack Engineer, Frontend Developer' },
     { label: 'Work modes', value: 'On-site, Hybrid, Remote' },
-    { label: 'Preferred cities', value: 'Hyderabad, Bengaluru, Pune, New Delhi' },
+    { label: 'Preferred cities', value: 'Bengaluru, Pune, Hyderabad' },
     { label: 'Availability', value: 'Immediate' }
   ];
 
@@ -124,7 +124,7 @@ export class AppComponent {
     },
     {
       name: 'Backend',
-      skills: ['Java', 'Spring Boot', 'Spring MVC', 'Spring Security', 'Node.js', 'Express.js']
+      skills: ['Java', 'Spring Boot', 'Spring MVC', 'Spring Security']
     },
     {
       name: 'Cloud & Delivery',
