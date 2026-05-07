@@ -17,7 +17,7 @@ export class AppComponent {
   readonly openToWork = [
     {
       label: 'Job titles',
-      value: 'Staff Engineer L4, Technical Lead, Frontend Architect',
+      value: 'Staff Full Stack Engineer, Technical Lead, Frontend Architect',
     },
     { label: 'Work modes', value: 'On-site, Hybrid, Remote' },
     { label: 'Preferred cities', value: 'Bengaluru, Pune, Hyderabad' },
