@@ -35,8 +35,30 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
   
   ngAfterViewInit() {
     if (this.isBrowser) {
-      // Scroll-based sliding for the hero card
-      if (this.heroCard) {
+      // Scroll-based sliding for the hero card (disabled on mobile)
+      this.setupScrollAnimation();
+      
+      // Listen for resize events to re-setup animation if needed
+      window.addEventListener('resize', this.setupScrollAnimation.bind(this));
+      
+      // Mouse move highlight effect
+      window.addEventListener('mousemove', this.handleMouseMove.bind(this));
+      
+      // Click ripple effect
+      document.addEventListener('click', this.addRipple.bind(this));
+    }
+  }
+  
+  setupScrollAnimation() {
+    if (this.heroCard) {
+      // Remove existing handler first
+      if (this.scrollHandler) {
+        window.removeEventListener('scroll', this.scrollHandler);
+        this.scrollHandler = null;
+      }
+      
+      // Only add animation on desktop (768px+)
+      if (window.innerWidth > 768) {
         this.scrollHandler = () => {
           const scrollY = window.scrollY;
           const maxOffset = 180;
@@ -44,13 +66,10 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
           this.heroCard.nativeElement.style.transform = `translateY(${translateY}px)`;
         };
         window.addEventListener('scroll', this.scrollHandler, { passive: true });
+      } else {
+        // Reset transform on mobile
+        this.heroCard.nativeElement.style.transform = '';
       }
-      
-      // Mouse move highlight effect
-      window.addEventListener('mousemove', this.handleMouseMove.bind(this));
-      
-      // Click ripple effect
-      document.addEventListener('click', this.addRipple.bind(this));
     }
   }
   

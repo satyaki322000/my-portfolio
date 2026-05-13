@@ -87,14 +87,14 @@
     <aside #heroCard class="hero__card">
       <p class="hero__status">Open to work</p>
       <h2>Immediate joiner for senior frontend or full stack roles</h2>
-      <ul>
+      <div class="hero__details">
         @for (item of openToWork; track item.label) {
-          <li>
+          <div class="hero__detail-item">
             <span>{{ item.label }}</span>
             <strong>{{ item.value }}</strong>
-          </li>
+          </div>
         }
-      </ul>
+      </div>
     </aside>
   </section>
 
