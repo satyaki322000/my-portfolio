@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,6 +6,15 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
+  readonly mobileMenuOpen = signal(false);
+
+  toggleMobileMenu() {
+    this.mobileMenuOpen.update(value => !value);
+  }
+
+  closeMobileMenu() {
+    this.mobileMenuOpen.set(false);
+  }
   readonly quickFacts = [
     { value: '4.5+ years', label: 'software engineering experience' },
     { value: '5k+ users', label: 'served on healthcare platforms' },
@@ -24,29 +33,52 @@ export class AppComponent {
     { label: 'Availability', value: 'Immediate' },
   ];
 
-  readonly impactHighlights = [
+  readonly proofPoints = [
+    {
+      value: '5,000+',
+      label: 'healthcare users supported',
+      detail: 'Multi-tenant patient, doctor, clinic, pharmacy, and monitor portals.',
+    },
+    {
+      value: '4',
+      label: 'airports live',
+      detail: 'Airport management workflows deployed across Indian airport operations.',
+    },
+    {
+      value: '98%',
+      label: 'Lighthouse score',
+      detail: 'Responsive Angular healthcare UI tuned for production performance.',
+    },
     {
       value: '99.9%',
-      title: 'Healthcare uptime',
-      detail:
-        'Built HIPAA-compliant systems and DICOM workflows serving thousands of users.',
+      label: 'uptime context',
+      detail: 'Built regulated HealthTech and GovTech systems with release discipline.',
     },
+  ];
+
+  readonly impactHighlights = [
     {
       value: '25%',
       title: 'Infrastructure cost reduced',
       detail:
-        'Helped migrate monolith-style delivery toward cloud-native architecture.',
+        'Helped migrate monolith-style delivery toward cloud-native architecture on AWS & Azure.',
     },
     {
       value: '60%',
       title: 'Deployment time improved',
-      detail: 'Focused on SDLC quality, collaboration, and release confidence.',
+      detail: 'Focused on SDLC quality, collaboration, and release confidence through CI/CD automation.',
+    },
+    {
+      value: '4',
+      title: 'Airports shipped live',
+      detail:
+        'Led full-stack airport management system across 4 Indian airports with zero security audit failures.',
     },
     {
       value: '3-4 teams',
-      title: 'Technical Leadership',
+      title: 'Technical leadership',
       detail:
-        'Architected cross-functional delivery for airport and healthcare systems. Set technical direction and code standards.',
+        'Architected frontend & backend delivery for healthcare and GovTech at national scale.',
     },
   ];
 
@@ -54,10 +86,20 @@ export class AppComponent {
     {
       type: 'Backend Architecture · GitHub Project',
       title: 'OMS Backend',
-      stack:
-        'Java 21, Spring Boot, Spring Security, Kafka, H2, JWT, Resilience4j',
+      stack: [
+        'Java 21',
+        'Spring Boot',
+        'Spring Security',
+        'Kafka',
+        'H2',
+        'JWT',
+        'Resilience4j',
+      ],
       summary:
         'Two-service backend — OrderManagementSystem and InventoryManagementSystem — working together via Kafka for event-driven order and stock management.',
+      outcome:
+        'Shows backend architecture depth: auth, messaging, reliability, and service boundaries.',
+      sourceUrl: 'https://github.com/satyaki322000',
       highlights: [
         'JWT auth + role-based access: USER can read orders, ADMIN can create/update/delete.',
         'Order events (CREATE, UPDATE, DELETE) published to Kafka; inventory service consumes and adjusts stock with duplicate-event protection via stored eventId.',
@@ -67,10 +109,20 @@ export class AppComponent {
     {
       type: 'Full Stack Product · GitHub Project',
       title: 'MYFOODAPP',
-      stack:
-        'Angular, Node.js, Express, TypeScript, MongoDB Atlas, Leaflet, JWT',
+      stack: [
+        'Angular',
+        'Node.js',
+        'Express',
+        'TypeScript',
+        'MongoDB Atlas',
+        'Leaflet',
+        'JWT',
+      ],
       summary:
         'End-to-end food ordering app covering search, tag filtering, cart, checkout with map, JWT login/register, and order persistence in MongoDB.',
+      outcome:
+        'Shows full product thinking: frontend flows, API design, auth, checkout, and persistence.',
+      sourceUrl: 'https://github.com/satyaki322000',
       highlights: [
         'Angular frontend with reusable components: header, home, search, tags, food page, cart, checkout, and auth flows.',
         'Node.js + Express backend with JWT auth, bcrypt, MongoDB Atlas connectivity, and order creation APIs.',
@@ -82,8 +134,20 @@ export class AppComponent {
   readonly experience = [
     {
       title: 'Senior Frontend Developer',
-      company: 'Arka Informations System / Docty Inc.',
-      period: 'April 2025 – May 2026',
+      company: 'Quick Care Life',
+      period: 'January 2026 – April 2026',
+      location: 'New Delhi, India · Remote',
+      project: 'Quick Care Life — Healthcare Software Infrastructure',
+      achievements: [
+        'Contributed to frontend development for healthcare product workflows with a focus on responsive Angular UI, maintainable feature delivery, and production-ready implementation.',
+        'Handled payment gateway workflows including Razorpay integration for secure checkout and transaction experiences.',
+        'Worked across software infrastructure and frontend modules to improve user-facing reliability, layout consistency, and delivery quality for remote healthcare operations.',
+      ],
+    },
+    {
+      title: 'Senior Frontend Developer',
+      company: 'Arka Information Systems / Docty Inc.',
+      period: 'April 2025 – February 2026',
       location: 'New Delhi, India · Hybrid',
       project: 'Docty — Multi-Tenant Healthcare Platform (built from scratch)',
       achievements: [

@@ -1,19 +1,51 @@
 <main class="portfolio-shell min-h-screen selection:bg-emerald-300/30">
-  <section class="hero">
+  <nav class="site-nav" aria-label="Portfolio navigation">
+    <a class="site-nav__brand" href="#top">Satyaki Banerjee</a>
+    <div class="site-nav__links">
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="resume/Satyaki_Banerjee_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+    </div>
+    
+    <button 
+      class="site-nav__hamburger" 
+      [attr.aria-expanded]="mobileMenuOpen()"
+      (click)="toggleMobileMenu()"
+      aria-label="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  @if (mobileMenuOpen()) {
+    <div class="mobile-menu">
+      <a href="#work" (click)="closeMobileMenu()">Work</a>
+      <a href="#experience" (click)="closeMobileMenu()">Experience</a>
+      <a href="#skills" (click)="closeMobileMenu()">Skills</a>
+      <a href="resume/Satyaki_Banerjee_Resume.pdf" target="_blank" rel="noreferrer" (click)="closeMobileMenu()">Resume</a>
+    </div>
+  }
+
+  <section class="hero" id="top">
     <div class="hero__glow hero__glow--emerald"></div>
     <div class="hero__glow hero__glow--amber"></div>
 
     <div class="hero__copy max-w-4xl">
       <p class="eyebrow">Senior Full Stack Engineer</p>
       <h1>
-        Satyaki Banerjee builds
-        <span>national-scale products</span>
-        with Angular, Spring Boot, cloud, and calm execution.
+        <span>Satyaki Banerjee builds</span>
+        <span class="hero__accent">national-scale products</span>
+        <span>with Angular,</span>
+        <span>Spring Boot,</span>
+        <span>cloud, and calm</span>
+        <span>execution.</span>
       </h1>
       <p class="hero__lede">
-        HealthTech and GovTech engineer with 4.5+ years of experience delivering
-        resilient systems, leading teams, and shipping production platforms that
-        support real users at scale.
+        HealthTech and GovTech engineer.
+        4.5+ years shipping production platforms at scale.
       </p>
 
       <div class="hero__cta">
@@ -55,7 +87,17 @@
     </aside>
   </section>
 
-  <section class="section">
+  <!-- <section class="proof-band" aria-label="Recruiter proof points">
+    @for (proof of proofPoints; track proof.label) {
+      <article class="proof-card">
+        <strong>{{ proof.value }}</strong>
+        <span>{{ proof.label }}</span>
+        <p>{{ proof.detail }}</p>
+      </article>
+    }
+  </section> -->
+
+  <section class="section" id="about">
     <div class="section__heading">
       <p class="eyebrow">About</p>
       <h2>Enterprise delivery without drama</h2>
@@ -86,7 +128,7 @@
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" id="work">
     <div class="section__heading">
       <p class="eyebrow">Featured Work</p>
       <h2>Projects that show architecture, ownership, and product depth</h2>
@@ -100,7 +142,11 @@
               <p class="project-card__type">{{ project.type }}</p>
               <h3>{{ project.title }}</h3>
             </div>
-            <span>{{ project.stack }}</span>
+            <div class="stack-chips" aria-label="Technology stack">
+              @for (tech of project.stack; track tech) {
+                <span>{{ tech }}</span>
+              }
+            </div>
           </div>
 
           <p class="project-card__summary">{{ project.summary }}</p>
@@ -110,12 +156,17 @@
               <li>{{ bullet }}</li>
             }
           </ul>
+
+          <div class="project-card__footer">
+            <p>{{ project.outcome }}</p>
+            <a [href]="project.sourceUrl" target="_blank" rel="noreferrer">View Source</a>
+          </div>
         </article>
       }
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" id="experience">
     <div class="section__heading">
       <p class="eyebrow">Experience</p>
       <h2>Recent roles and delivery context</h2>
@@ -146,7 +197,7 @@
     </div>
   </section>
 
-  <section class="section section--split">
+  <section class="section section--split" id="skills">
     <div>
       <div class="section__heading">
         <p class="eyebrow">Skills</p>
