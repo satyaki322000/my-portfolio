@@ -1,10 +1,26 @@
-<main class="portfolio-shell min-h-screen selection:bg-emerald-300/30">
+<!-- app.component.html -->
+<main class="portfolio-shell">
+  <!-- Mouse-following gradient highlight -->
+  <div 
+    class="mouse-glow" 
+    [class.mouse-glow--active]="isMouseMoving()"
+    [style.left.%]="mouseX()"
+    [style.top.%]="mouseY()">
+  </div>
+  
+  <!-- Ripple Container for click effect -->
+  <div class="ripple-container">
+    @for (ripple of ripples(); track ripple.id) {
+      <div class="ripple" [style.left.px]="ripple.x" [style.top.px]="ripple.y"></div>
+    }
+  </div>
+
   <nav class="site-nav" aria-label="Portfolio navigation">
-    <a class="site-nav__brand" href="#top">Satyaki Banerjee</a>
+    <a class="site-nav__brand" href="#top" (click)="closeMobileMenu()">Satyaki Banerjee</a>
     <div class="site-nav__links">
-      <a href="#work">Work</a>
-      <a href="#experience">Experience</a>
-      <a href="#skills">Skills</a>
+      <a href="#work" (click)="closeMobileMenu()">Work</a>
+      <a href="#experience" (click)="closeMobileMenu()">Experience</a>
+      <a href="#skills" (click)="closeMobileMenu()">Skills</a>
       <a href="resume/Satyaki_Banerjee_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
     </div>
     
@@ -30,18 +46,12 @@
   }
 
   <section class="hero" id="top">
-    <div class="hero__glow hero__glow--emerald"></div>
-    <div class="hero__glow hero__glow--amber"></div>
-
-    <div class="hero__copy max-w-4xl">
+    <div class="hero__copy">
       <p class="eyebrow">Senior Full Stack Engineer</p>
       <h1>
-        <span>Satyaki Banerjee builds</span>
+        <span>Satyaki Banerjee builds </span>
         <span class="hero__accent">national-scale products</span>
-        <span>with Angular,</span>
-        <span>Spring Boot,</span>
-        <span>cloud, and calm</span>
-        <span>execution.</span>
+        <span>with Angular, Spring Boot, cloud, and calm execution.</span>
       </h1>
       <p class="hero__lede">
         HealthTech and GovTech engineer.
@@ -73,7 +83,8 @@
       </ul>
     </div>
 
-    <aside class="hero__card ring-1 ring-white/5">
+    <!-- Hero Card with scroll sliding -->
+    <aside #heroCard class="hero__card">
       <p class="hero__status">Open to work</p>
       <h2>Immediate joiner for senior frontend or full stack roles</h2>
       <ul>
@@ -87,16 +98,6 @@
     </aside>
   </section>
 
-  <!-- <section class="proof-band" aria-label="Recruiter proof points">
-    @for (proof of proofPoints; track proof.label) {
-      <article class="proof-card">
-        <strong>{{ proof.value }}</strong>
-        <span>{{ proof.label }}</span>
-        <p>{{ proof.detail }}</p>
-      </article>
-    }
-  </section> -->
-
   <section class="section" id="about">
     <div class="section__heading">
       <p class="eyebrow">About</p>
@@ -104,7 +105,7 @@
     </div>
 
     <div class="about-grid">
-      <article class="card card--feature ring-1 ring-white/5">
+      <article class="card card--feature">
         <p>
           I build products that need to stay online, stay compliant, and stay usable.
           My recent work spans healthcare, medical imaging, airport systems, payments,
@@ -118,7 +119,7 @@
 
       <div class="impact-grid">
         @for (item of impactHighlights; track item.title) {
-        <article class="card impact-card ring-1 ring-white/5">
+          <article class="card impact-card">
             <p class="impact-card__value">{{ item.value }}</p>
             <h3>{{ item.title }}</h3>
             <p>{{ item.detail }}</p>
@@ -136,13 +137,13 @@
 
     <div class="project-grid">
       @for (project of featuredProjects; track project.title) {
-        <article class="card project-card ring-1 ring-white/5">
+        <article class="card project-card">
           <div class="project-card__header">
             <div>
               <p class="project-card__type">{{ project.type }}</p>
               <h3>{{ project.title }}</h3>
             </div>
-            <div class="stack-chips" aria-label="Technology stack">
+            <div class="stack-chips">
               @for (tech of project.stack; track tech) {
                 <span>{{ tech }}</span>
               }
@@ -159,7 +160,7 @@
 
           <div class="project-card__footer">
             <p>{{ project.outcome }}</p>
-            <a [href]="project.sourceUrl" target="_blank" rel="noreferrer">View Source</a>
+            <a [href]="project.sourceUrl" target="_blank" rel="noreferrer">View Source →</a>
           </div>
         </article>
       }
@@ -174,7 +175,7 @@
 
     <div class="timeline">
       @for (role of experience; track role.title + role.company) {
-        <article class="card timeline__item ring-1 ring-white/5">
+        <article class="card timeline__item">
           <div class="timeline__meta">
             <p>{{ role.period }}</p>
             <span>{{ role.location }}</span>
@@ -198,7 +199,7 @@
   </section>
 
   <section class="section section--split" id="skills">
-    <div>
+    <div class="skills-column">
       <div class="section__heading">
         <p class="eyebrow">Skills</p>
         <h2>Architecture Stack I Own</h2>
@@ -206,7 +207,7 @@
 
       <div class="skill-groups">
         @for (group of skillGroups; track group.name) {
-          <article class="card skill-card ring-1 ring-white/5">
+          <article class="card skill-card">
             <h3>{{ group.name }}</h3>
             <div class="chips">
               @for (skill of group.skills; track skill) {
@@ -218,7 +219,7 @@
       </div>
     </div>
 
-    <div>
+    <div class="cert-column">
       <div class="section__heading">
         <p class="eyebrow">Certifications</p>
         <h2>Enterprise Certifications</h2>
@@ -226,7 +227,7 @@
 
       <div class="cert-list">
         @for (cert of certifications; track cert.title) {
-          <article class="card cert-card ring-1 ring-white/5">
+          <article class="card cert-card">
             <h3>{{ cert.title }}</h3>
             <p>{{ cert.issuer }}</p>
             <span>{{ cert.meta }}</span>
@@ -237,7 +238,7 @@
   </section>
 
   <section class="section section--contact">
-    <div class="card contact-card ring-1 ring-white/5">
+    <div class="card contact-card">
       <p class="eyebrow">Let’s Build</p>
       <h2>Looking for senior Angular or full stack opportunities</h2>
       <p>
